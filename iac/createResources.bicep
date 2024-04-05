@@ -204,7 +204,8 @@ resource kv 'Microsoft.KeyVault/vaults@2022-07-01' = {
       family: 'A'
       name: 'standard'
     }
-    softDeleteRetentionInDays: 7
+    enableSoftDelete: false
+    //softDeleteRetentionInDays: 7
     tenantId: tenantId
   }
 
